@@ -1,0 +1,43 @@
+.header{
+  background-color: hsl(217, 28%, 15%);
+  display: flex;
+  justify-content: space-between  ;
+  align-items: center;
+}
+
+.img-header-container{
+  height: 50px;
+
+}
+
+header img{
+  margin-left: 20px;
+  height: 40px;
+}
+
+.header-menu{
+  width: 100%vw;
+  height: 80px;
+  
+}
+
+header ol{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header a{
+  color: white;
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+ol,ul{
+  list-style: none;
+}
