@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+body{
+  font-family: 'Open Sans', sans-serif;
+}
 .header{
   background-color: hsl(217, 28%, 15%);
   display: flex;
@@ -40,4 +44,43 @@ header ol{
 
 ol,ul{
   list-style: none;
+}
+
+.hero{
+  background-color:hsl(218, 28%, 13%) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+.hero-image-container{
+  
+  width: 500px;
+}
+
+.img-hero{
+  width: 480px; 
+}
+
+.text{
+  text-align: center;
+  color: white;
+}
+
+.hero-description{
+  text-align: center;
+  color: white;
+}
+
+.hero-button{
+ display: block;
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: hsl(176, 68%, 64%);
+  color: white;
 }
