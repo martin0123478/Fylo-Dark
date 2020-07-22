@@ -169,3 +169,82 @@ ol,ul{
 .job{
   font-size: 8px;
 }
+
+.main-ready{
+  display: grid; 
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid  white;
+  width: 500px;
+  height: 150px;
+  margin-bottom: -50px;
+  border-radius: 10px;
+  margin-left: 450px;
+  margin-bottom: -50px;
+  position: relative;
+  margin-top: 120px;
+  justify-content: center;
+  align-content: center;
+}
+
+.ready-text{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+.button-ready{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 10px;
+  width: 180px;
+
+}
+
+footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  background-color: hsl(217, 28%, 15%);
+  height: 400px;
+  justify-items: center;
+  align-items: center;
+}
+
+.footer-contact{
+  display: inline-block;
+  
+}
+
+.contact{
+  grid-column: 1;
+  
+}
+
+.logo-container{
+  height: 70px;
+  
+}
+
+.footer-icons a{
+  margin-left: 5px;
+  text-decoration: none;
+  height: 10px;
+  color: white;
+  font-size: 25px;
+}
+
+.footer-contact p{
+  color: white;
+  
+}
+
+.footer-about p{
+  color: white;
+  line-height:30px;
+}
+
+.footer-Carrer p{
+  color: white;
+  line-height:30px;
+}
